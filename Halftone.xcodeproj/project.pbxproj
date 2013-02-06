@@ -19,6 +19,7 @@
 		D4ABBBCD16BF153300B4FF4E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4ABBBCB16BF153300B4FF4E /* MainStoryboard_iPhone.storyboard */; };
 		D4ABBBD016BF153300B4FF4E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4ABBBCE16BF153300B4FF4E /* MainStoryboard_iPad.storyboard */; };
 		D4ABBBD316BF153300B4FF4E /* RXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ABBBD216BF153300B4FF4E /* RXViewController.m */; };
+		D4ABBBDA16BF193600B4FF4E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4ABBBD916BF193600B4FF4E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D4ABBBCF16BF153300B4FF4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D4ABBBD116BF153300B4FF4E /* RXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXViewController.h; sourceTree = "<group>"; };
 		D4ABBBD216BF153300B4FF4E /* RXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXViewController.m; sourceTree = "<group>"; };
+		D4ABBBD916BF193600B4FF4E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4ABBBDA16BF193600B4FF4E /* QuartzCore.framework in Frameworks */,
 				D4ABBBB416BF153300B4FF4E /* UIKit.framework in Frameworks */,
 				D4ABBBB616BF153300B4FF4E /* Foundation.framework in Frameworks */,
 				D4ABBBB816BF153300B4FF4E /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		D4ABBBB216BF153300B4FF4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4ABBBD916BF193600B4FF4E /* QuartzCore.framework */,
 				D4ABBBB316BF153300B4FF4E /* UIKit.framework */,
 				D4ABBBB516BF153300B4FF4E /* Foundation.framework */,
 				D4ABBBB716BF153300B4FF4E /* CoreGraphics.framework */,
